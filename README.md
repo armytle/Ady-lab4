@@ -9,6 +9,8 @@
 6. [Results](#results)
 7. [Licensing, Authors, and Acknowledgements](#licensing-authors-and-acknowledgements)
 
+link_canva: https://www.canva.com/design/DAGHtwY5cNU/LI0BpN3BSiokl_HqahNs6A/edit (slides)
+
 ## Introduction
 The Disaster Response Pipeline Project is part of the Udacity Data Scientist Nanodegree. This project aims to build a machine learning pipeline to categorize real messages from disaster events. These messages can come from social media, news articles, and other sources. The categorized messages can then be sent to the appropriate disaster response agencies.
 
