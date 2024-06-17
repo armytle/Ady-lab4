@@ -25,12 +25,16 @@ The repository contains the following files and directories:
 2. **data**: This directory contains data processing files.
    - `disaster_messages.csv`: The dataset containing disaster-related messages.
    - `disaster_categories.csv`: The dataset containing categories for the messages.
-   - `process_data.py`: Script to load, clean, and save data to a SQLite database.
+   - `data` : https://www.kaggle.com/datasets/hoangziet/data-augmented-udacity-disaster-response/settings
+   - `process_data.ipynb`: Script to load, clean, and save data to a SQLite database.
    - `DisasterResponse.db`: SQLite database containing the cleaned data.
    
 3. **models**: This directory contains machine learning pipeline files.
    - `train_classifier.py`: Script to train and save the machine learning model.
-   - `classifier.pkl`: Trained machine learning model.
+   - `best_model1.h5` :https://drive.google.com/file/d/15xfjyaWdx8mzuCHZXH4uh5E6Gy02VFnE/view?usp=sharing
+   - `best_model2.h5` :https://drive.google.com/file/d/16o5kOoiqk--ppYPhje3rk5rnkFyAGR7y/view?usp=sharing
+   - `best_model3.h5` : https://drive.google.com/file/d/1TOtQiuGh-tpQlqdR87YztuDHjiereyLZ/view?usp=sharing
+   
 
 4. **README.md**: Project documentation.
 
@@ -41,7 +45,7 @@ To run this project, you will need to have the following dependencies installed:
 - numpy
 - scikit-learn
 - sqlalchemy
-- nltk
+- tensorflow
 - Flask
 - plotly
 
@@ -51,7 +55,7 @@ pip install pandas numpy scikit-learn sqlalchemy nltk Flask plotly
 ```
 
 ## Instructions
-1. **Run ETL Pipeline**: Process data and save to database.
+1. **Run process_data**: Process data and save to database.
    ```bash
    python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db
    ```
